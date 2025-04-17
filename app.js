@@ -20,8 +20,9 @@ app.use(
 );
 
 // Routes
-app.use("/api/auth", require("./routes/auth"));
-app.use("/api/admin", require("./routes/admin"));
+/api/auth/login.js     
+/api/auth/register.js  
+/public/login.html     
 
 // Serve admin panel
 app.get("/", (req, res) => {
@@ -30,4 +31,3 @@ app.get("/", (req, res) => {
 
 // Start Server
 app.listen(PORT, () => console.log(`Server running on http://localhost:${PORT}`));
-fffff

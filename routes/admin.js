@@ -6,7 +6,7 @@ const router = express.Router();
 const usersFile = path.join(__dirname, "../data/users.json");
 
 // Dummy admin credentials
-const ADMIN_USERNAME = "nexx";
+const ADMIN_USERNAME = "4";
 const ADMIN_PASSWORD = "4";
 
 const loadUsers = () => {
